@@ -1,0 +1,11 @@
+.container{
+    margin: 50px;
+    padding: 30px;
+
+}
+
+select, label, input {
+   width: 100%;
+   padding: 10px;
+   font-size: 18px;
+}
