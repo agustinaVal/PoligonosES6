@@ -1,7 +1,6 @@
-
 import Poligono from './Poligono'
 
-const rectangulo = {
+let rectangulo = {
   area() {
     let base = Poligono.valores()[0]
     let altura = Poligono.valores()[2]

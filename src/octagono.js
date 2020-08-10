@@ -1,6 +1,6 @@
 import Poligono from './Poligono'
 
-const octagono = {
+let octagono = {
   area() {
     let lado = Poligono.valores()[1]
     let apotema = Poligono.valores()[3]

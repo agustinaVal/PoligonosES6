@@ -1,21 +1,16 @@
-
 import Poligono from './Poligono'
 
-class Cuadrado extends Poligono {
-  constructor() {
-    super()
-  }
+let cuadrado = {
   area() {
-    return this.base * this.altura
-  }
+    let base = Poligono.valores()[0]
+    let altura = Poligono.valores()[2]
+    return base * altura
+  },
   perimetro() {
-    return this.base*2 + this.altura*2
+    let base = Poligono.valores()[0]
+    let altura = Poligono.valores()[2]
+    return (base * 2) + (altura * 2)
   }
 }
 
-export default Cuadrado
-
-
-
-
-
+export default cuadrado

@@ -1,14 +1,26 @@
 {
-  "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.11.1",
-    "@babel/preset-env": "^7.11.0",
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
     "babel-loader": "^8.1.0",
+    "core-js": "^3.6.5",
+    "jquery": "^3.5.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  },
   "scripts": {
-    "build": "webpack --watch",
-    "build-babel": "babel src -d output --watch"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server": "webpack-dev-server --mode development"
+  },
+  "author": "",
+  "license": "ISC"
 }
