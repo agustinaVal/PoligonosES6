@@ -1,5 +1,4 @@
-import Poligono from './Poligono'
-
+import Poligono from './poligono.js'
 let rectangulo = {
   area() {
     let base = Poligono.valores()[0]
