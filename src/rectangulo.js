@@ -1,15 +1,15 @@
 import Poligono from './poligono.js'
-let rectangulo = {
+
+class Rectangulo extends Poligono {
+  constructor() {
+    super()
+  }
   area() {
-    let base = Poligono.valores()[0]
-    let altura = Poligono.valores()[2]
-    return (base * altura)
-  },
+    return this.base * this.altura 
+  }
   perimetro() {
-    let base = Poligono.valores()[0]
-    let altura = Poligono.valores()[2]
-    return (base + altura) * 2
+    return this.lado * 3
   }
 }
 
-export default rectangulo
+export default Rectangulo

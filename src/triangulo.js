@@ -1,17 +1,18 @@
 import Poligono from './poligono.js'
-let triangulo = {
+
+class Triangulo extends Poligono {
+  constructor() {
+    super()
+  }
   area() {
-    let base = Poligono.valores()[0]
-    let altura = Poligono.valores()[2]
-    return (base * altura) /2
-  },
+    return this.base * this.altura 
+  }
   perimetro() {
-    let lado = Poligono.valores()[1]
-    return (lado * 3)
+    return this.lado * 3
   }
 }
 
-export default triangulo
+export default Triangulo
 
 
 

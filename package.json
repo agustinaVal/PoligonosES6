@@ -2,7 +2,7 @@
   "name": "webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "dependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",

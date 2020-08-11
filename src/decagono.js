@@ -1,19 +1,18 @@
 import Poligono from './poligono.js'
 
-let decagono = {
-  area(){
-    let lado = Poligono.valores()[1]
-    let apotema = Poligono.valores()[3]
-    return (10 * lado * apotema)/2
-  },
-  perimetro(){
-    console.log(this)
-    let lado = Poligono.valores()[1]
-    return(lado * 10)
+class Decagono extends Poligono {
+  constructor() {
+    super()
+  }
+  area() {
+    return this.lado * this.area * 10  /2
+  }
+  perimetro() {
+    return 10 * this.lado
   }
 }
 
-export default decagono
+export default Decagono
 
 
 
