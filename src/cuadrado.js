@@ -3,6 +3,8 @@ import Poligono from './poligono.js'
 class Cuadrado extends Poligono {
   constructor() {
     super()
+    this.id = 2
+    this.nombre = "Cuadrado"
   }
   area() {
     return this.base * this.altura

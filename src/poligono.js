@@ -6,6 +6,7 @@ class Poligono {
     this.apotema = parseInt(document.getElementById('apotema').value) || null
     this.radio = parseInt(document.getElementById('radio').value) || null
   }
+   
 }
 
 export default Poligono
